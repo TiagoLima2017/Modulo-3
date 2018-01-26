@@ -1,7 +1,7 @@
 
-package mutioplicaçaorussa;
+package Funçao;
 import java.util.Scanner;
-public class maiorde3 {
+public class funçao2 {
     static int maiorde3 (int X, int Y, int Z)
     {if (X < Y)
         X = Y;
