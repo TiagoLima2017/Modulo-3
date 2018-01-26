@@ -1,8 +1,8 @@
-
 package Funçao;
 import java.util.Scanner;
-public class funçao2 {
-    static int menorde3 (int X, int Y, int Z)
+public class Funçao2 {
+    private static Scanner lerS;
+	static int menorde3 (int X, int Y, int Z)
     {if (X < Y)
         X = Y;
      if (X < Z)
@@ -16,23 +16,22 @@ public class funçao2 {
     return X;}
     public static void main (String [] args) throws Exception{
         int x, y ,z,a,b,c;
-        Scanner LerS = new Scanner(System.in);
+        lerS = new Scanner(System.in);
         System.out.print("Digite o primeiro valor (x) ");
-        x = LerS.nextInt();
+        x = lerS.nextInt();
         System.out.print("Digite o segundo valor (y) ");
-        y = LerS.nextInt();
+        y = lerS.nextInt();
         System.out.print("Digite o terceiro valor (z) ");
-        z = LerS.nextInt();
+        z = lerS.nextInt();
         System.out.println("Menor = "+ menorde3 (x, y, z));       
         
       
         System.out.print("Digite o primeiro valor (a) ");
-        a = LerS.nextInt();
+        a = lerS.nextInt();
         System.out.print("Digite o segundo valor (b) ");
-        b = LerS.nextInt();
+        b = lerS.nextInt();
         System.out.print("Digite o terceiro valor (c) ");
-        c = LerS.nextInt();
+        c = lerS.nextInt();
         System.out.println("Menor = "+ menorde3 (a, b, c));
     }
     }
-    
