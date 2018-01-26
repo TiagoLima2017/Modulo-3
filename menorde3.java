@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Funçao2 {
     private static Scanner lerS;
 	static int menorde3 (int X, int Y, int Z)
-    {if (X < Y)
-        X = Y;
-     if (X < Z)
-         X = Z;
-    return X;}
-    static int menorde3 (int X, int Y, int Z)
     {if (X > Y)
         X = Y;
      if (X > Z)
+         X = Z;
+    return X;}
+    static int menorde31 (int X, int Y, int Z)
+    {if (X < Y)
+        X = Y;
+     if (X < Z)
          X = Z;
     return X;}
     public static void main (String [] args) throws Exception{
