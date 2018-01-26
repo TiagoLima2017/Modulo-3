@@ -32,6 +32,6 @@ public class Funçao2 {
         b = lerS.nextInt();
         System.out.print("Digite o terceiro valor (c) ");
         c = lerS.nextInt();
-        System.out.println("Menor = "+ menorde3 (a, b, c));
+        System.out.println("Maior = "+ menorde31 (a, b, c));
     }
     }
