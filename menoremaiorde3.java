@@ -8,7 +8,7 @@ public class Funçao2 {
      if (X > Z)
          X = Z;
     return X;}
-    static int menorde31 (int X, int Y, int Z)
+    static int maiorde3 (int X, int Y, int Z)
     {if (X < Y)
         X = Y;
      if (X < Z)
@@ -32,6 +32,6 @@ public class Funçao2 {
         b = lerS.nextInt();
         System.out.print("Digite o terceiro valor (c) ");
         c = lerS.nextInt();
-        System.out.println("Maior = "+ menorde31 (a, b, c));
+        System.out.println("Maior = "+ maiorde3 (a, b, c));
     }
     }
