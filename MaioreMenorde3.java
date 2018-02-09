@@ -1,6 +1,6 @@
 package Funçao;
 import java.util.Scanner;
-public class Funçao2 {
+public class MaioreMenorde3 {
     private static Scanner lerS;
 	static int menorde3 (int X, int Y, int Z)
     {if (X > Y)
